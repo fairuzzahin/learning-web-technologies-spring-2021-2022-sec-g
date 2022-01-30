@@ -21,9 +21,9 @@
          </td>
          <td>
           External Links<br/>
-          <a href= "">Google<br><br></a>
-          <a href= "">Yahoo<br><br></a>
-          <a href= "">Microsoft<br><br></a>
+          <a href= "www.google.com">Google<br><br></a>
+          <a href= "www.yahoo.com">Yahoo<br><br></a>
+          <a href= "www.microsoft.com">Microsoft<br><br></a>
          </td>
       </tr>
       <tr height="30px">

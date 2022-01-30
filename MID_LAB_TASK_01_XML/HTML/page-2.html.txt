@@ -22,8 +22,8 @@
          </td>
          <td>
           External Links<br/>
-          <a href= "">Google<br><br></a>
-          <a href= "">Yahoo<br><br></a>
+          <a href= "www.google.com">Google<br><br></a>
+          <a href= "www.yahoo.com">Yahoo<br><br></a>
           
          </td>
       </tr>
