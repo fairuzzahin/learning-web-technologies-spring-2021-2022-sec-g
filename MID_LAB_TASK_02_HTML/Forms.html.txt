@@ -1,7 +1,30 @@
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+<html>
+<head><title>HTML Form </title></head>
+<body>
+<center><h1><u>Registration Form</u></h1></center>
+
+<form align="center">
+   <head><center><h1><u>Registration Form</u></h1></center></head>
+  <label for="fname">First name  :</label>
+  <input type="text" id="fname" name="fname" value="Fairuz"><br><br>
+ <label for="midname">Middle name:</label>
+ <input type="text" id="midname" name="midname" value="Zahin"><br><br>
+  <label for="lname">Last name   :</label>
+  <input type="text" id="lname" name="lname" value="Sneha"><br><br>
+ <label for="dob">Date of Birth  :</label>
+<input type="text" id="dob" Dob="dob" value="27/1/2001"><br><br>
+<label for="pass">Password       :</label>
+<input type="text" id="pass" Pass="pass" value="1234"><br><br>
+<label for="email">Email         :</label>
+<input type="url" id="email" Email="email" value="fairuz.zahin2018@gmail.com"><br><br>
+<label for="num">Mobile No       :</label>
+<input type="num" id="num" number="num" value="01829258800"><br><br>
+          <p>   Gender           :
+<input type="radio" id="gender" gender="Gender" value="Male">
+<label for="gender">Male</label><br>
+<input type="radio" id="gender" gender="Gender" value="Female">
+<label for="gender">Female</label><br>
   <input type="submit" value="Submit">
 </form>
+</body>
+</html>
