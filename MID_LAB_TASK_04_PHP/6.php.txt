@@ -1,3 +1,12 @@
 <?php
 $numbers=[1,3,5,7,9]
-for($i=1
+for($i=0;$i<10;$i++){
+ if($i%2!=0){
+   echo $numbers[$i];
+}
+else{
+    echo "Not in this array";
+}
+
+}
+?>

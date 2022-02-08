@@ -1,0 +1,28 @@
+<?php
+for($i=1;$i<=3;$i++){	
+	for($j=1;$j<=$i;$j++){
+		echo "*";
+	}
+	echo "\n";
+}
+echo "\n\n";
+$num=1;
+for($i=1;$i<=3;$i++){	
+	for($j=3;$j<=1;$j--){
+	     echo $num." ";
+             $num = $num + 1;
+	}
+	echo "\n";
+}
+echo "\n\n";
+ $num = 65;
+for($i=1;$i<=3;$i++){	
+	for($j=1;$j<=$i;$j++){
+          $ch = chr($num);
+          echo $ch." ";
+          $num = $num + 1;
+		
+	}
+	echo "\n";
+}
+?>

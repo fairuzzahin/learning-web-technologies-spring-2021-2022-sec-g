@@ -1,0 +1,32 @@
+<?php
+echo "The array to declare";
+echo "\n";
+$numbers = [
+		[1, 2, 3, 'A'],
+		[1, 2, 'B', 'C'],
+	        [1, 'D', 'E', 'F']
+	    ];
+	echo $numbers[0][]."\n". $numbers[1][]."\n".$numbers[2][];
+
+echo "\n";
+echo "Shapes to print\n";
+$num=1;
+for($i=1;$i<=3;$i++){	
+	for($j=3;$j<=1;$j--){
+	     echo $num." ";
+             $num = $num + 1;
+	}
+	echo "\n";
+}
+echo "\n\n";
+ $num = 65;
+for($i=1;$i<=3;$i++){	
+	for($j=1;$j<=$i;$j++){
+          $ch = chr($num);
+          echo $ch." ";
+          $num = $num + 1;
+		
+	}
+	echo "\n";
+}
+?>

@@ -1,0 +1,6 @@
+<?php
+$amount = 110;
+$vat = 15;
+
+echo ($price * (($vat / 100) + 1), 2);
+?>
