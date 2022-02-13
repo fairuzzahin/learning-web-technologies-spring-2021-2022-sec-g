@@ -1,0 +1,13 @@
+<?php 
+
+print_r($_POST)
+if(isset($_REQUEST['submit'])){
+		
+		if($_REQUEST['username'] == null){
+			echo "invalid object!";
+		}else{
+			echo "ok";
+		}
+	}
+
+?>
