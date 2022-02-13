@@ -1,0 +1,46 @@
+<?php 
+
+$uerror = "";
+$dob = "";
+
+if(isset($_REQUEST['submit'])){
+		
+	if($_REQUEST['dob'] == null){
+		$uerror =  "invalid dob!";
+	}else{
+		$dob = $_REQUEST['dob'];
+	}
+}
+
+?>
+
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+       <fieldset>
+	      <legend>Date of Birth</legend>
+	<form method="POST" action="#">
+		<table>
+			<tr>
+				<td>Date of birth:</td>
+				<td>
+					<input type="date" name="dob" value="<?=$dob?>">
+				</td>
+				<td>
+					<?=$uerror?>
+				</td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="submit" value="Submit">
+				</td>
+			</tr>
+		</table>
+            </fieldset>
+	</form>
+</body>
+</html>
