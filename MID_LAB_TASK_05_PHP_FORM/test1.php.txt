@@ -5,7 +5,7 @@
 print_r($_GET)
 if(isset($_REQUEST['submit'])){
 		
-		if($_REQUEST['username'] == null){
+		if($_REQUEST['email'] == null){
 			echo "invalid object!";
 		}else{
 			echo "ok";

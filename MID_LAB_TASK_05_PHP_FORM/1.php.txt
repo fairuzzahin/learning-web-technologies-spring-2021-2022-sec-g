@@ -21,7 +21,7 @@ if(isset($_REQUEST['submit'])){
 <body>
        <fieldset>
 	      <legend>NAME</legend>
-	<form method="POST" action="#">
+	<form method="POST" action="test.php">
 		<table>
 			<tr>
 				<td>name</td>

@@ -21,7 +21,7 @@ if(isset($_REQUEST['submit'])){
 <body>
        <fieldset>
 	      <legend>Blood Group</legend>
-	<form method="POST" action="#">
+	<form method="POST" action="test5.php">
 		<table>
 			<tr>
 				<td>Blood Group:</td>
