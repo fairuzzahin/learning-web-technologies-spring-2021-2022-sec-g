@@ -1,0 +1,7 @@
+<?php 
+	require('header.php');
+if(isset($_POST['delete']){
+ $ID=$_POST['id'];
+
+}
+?>
