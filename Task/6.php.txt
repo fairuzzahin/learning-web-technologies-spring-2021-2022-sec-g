@@ -1,0 +1,53 @@
+<?php 
+
+$uerror = "";
+$bloodgrp = "";
+
+if(isset($_REQUEST['submit'])){
+		
+	if($_REQUEST['bloodgrp'] == null){
+		$uerror =  "invalid bloodgrp!";
+	}else{
+		$bloodgrp = $_REQUEST['bloodgrp'];
+	}
+}
+
+?>
+
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+       <fieldset>
+	      <legend>Blood Group</legend>
+	<form method="POST" action="test5.php">
+		<table>
+			<tr>
+				<td>Blood Group:</td>
+				
+
+                                     <td>
+						<select name="bloodgrp">
+							<option value="<?=$bloodgrp?>">A+</option>
+							<option value="<?=$bloodgrp?>">B+</option>
+							<option value="<?=$bloodgrp?>">AB+</option>
+                                                        <option value="<?=$bloodgrp?>">O+</option>
+						</select>
+					</td>
+				<td>
+					<?=$uerror?>
+				</td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="submit" value="Submit">
+				</td>
+			</tr>
+		</table>
+            </fieldset>
+	</form>
+</body>
+</html>
